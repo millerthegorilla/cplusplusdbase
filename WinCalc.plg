@@ -1,0 +1,104 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WinCalc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP60C4.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /I "lib" /I "resource" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/WinCalc.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\james\c++\windowed apps\Copy of Wincalc_database_firm1\WinCalc\Commander.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP60C4.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP60C5.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/WinCalc.pdb" /debug /machine:I386 /out:"Debug/WinCalc.exe" /pdbtype:sept 
+".\Debug\Class.obj"
+".\Debug\ComboBox.obj"
+".\Debug\Command.obj"
+".\Debug\Dialog.obj"
+".\Debug\Edit.obj"
+".\Debug\Exception.obj"
+".\Debug\Icon.obj"
+".\Debug\Maker.obj"
+".\Debug\Menu.obj"
+".\Debug\MsgLoop.obj"
+".\Debug\Procedure.obj"
+".\Debug\Tools.obj"
+".\Debug\Util.obj"
+".\Debug\Win.obj"
+".\Debug\database.obj"
+".\Debug\datafile.obj"
+".\Debug\record.obj"
+".\Debug\RecordStruct.obj"
+".\Debug\SearchObject.obj"
+".\Debug\AboutDlg.obj"
+".\Debug\ChildControl.obj"
+".\Debug\ChildView.obj"
+".\Debug\Commander.obj"
+".\Debug\ContextCommander.obj"
+".\Debug\Control.obj"
+".\Debug\DisplayDlg.obj"
+".\Debug\main.obj"
+".\Debug\MenuTable.obj"
+".\Debug\NewDlg.obj"
+".\Debug\RemoveDlg.obj"
+".\Debug\SearchDlg.obj"
+".\Debug\Status.obj"
+".\Debug\View.obj"
+".\Debug\Script.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP60C5.TMP"
+<h3>Output Window</h3>
+Compiling...
+Commander.cpp
+Linking...
+Creating temporary file "C:\WINDOWS\TEMP\RSP6145.TMP" with contents
+[
+/nologo /o"Debug/WinCalc.bsc" 
+".\Debug\Class.sbr"
+".\Debug\ComboBox.sbr"
+".\Debug\Command.sbr"
+".\Debug\Dialog.sbr"
+".\Debug\Edit.sbr"
+".\Debug\Exception.sbr"
+".\Debug\Icon.sbr"
+".\Debug\Maker.sbr"
+".\Debug\Menu.sbr"
+".\Debug\MsgLoop.sbr"
+".\Debug\Procedure.sbr"
+".\Debug\Tools.sbr"
+".\Debug\Util.sbr"
+".\Debug\Win.sbr"
+".\Debug\database.sbr"
+".\Debug\datafile.sbr"
+".\Debug\record.sbr"
+".\Debug\RecordStruct.sbr"
+".\Debug\SearchObject.sbr"
+".\Debug\AboutDlg.sbr"
+".\Debug\ChildControl.sbr"
+".\Debug\ChildView.sbr"
+".\Debug\Commander.sbr"
+".\Debug\ContextCommander.sbr"
+".\Debug\Control.sbr"
+".\Debug\DisplayDlg.sbr"
+".\Debug\main.sbr"
+".\Debug\MenuTable.sbr"
+".\Debug\NewDlg.sbr"
+".\Debug\RemoveDlg.sbr"
+".\Debug\SearchDlg.sbr"
+".\Debug\Status.sbr"
+".\Debug\View.sbr"]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSP6145.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+WinCalc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
